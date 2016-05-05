@@ -56,6 +56,10 @@ Returns `(Function) => Function`.
 
 > A function to compare two values for equality. Defaults to `===`.
 
+###### -`getKey` : Function [optional]
+
+> A function to return cache key, default is args.
+
 ###### -`deepObjects` : Boolean [optional]
 
 > Whether or not to perform a deep equals on Object values. Defaults to `false`.

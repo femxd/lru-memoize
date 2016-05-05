@@ -1,11 +1,11 @@
 {
-  "name": "lru-memoize",
+  "name": "lru-memoize2",
   "version": "1.0.1",
   "description": "A utility to provide lru memoization for any js function",
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/erikras/lru-memoize"
+    "url": "https://github.com/femxd/lru-memoize"
   },
   "scripts": {
     "build": "npm run build:lib && npm run build:umd && npm run build:umd:min",
@@ -24,12 +24,12 @@
     "es7",
     "decorator"
   ],
-  "author": "Erik Rasmussen <rasmussenerik@gmail.com> (http://github.com/erikras)",
+  "author": "allanfish <allanfish@gmail.com> (http://github.com/femxd)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/erikras/lru-memoize/issues"
+    "url": "https://github.com/femxd/lru-memoize/issues"
   },
-  "homepage": "https://github.com/erikras/lru-memoize",
+  "homepage": "https://github.com/femxd/lru-memoize",
   "devDependencies": {
     "babel": "^5.8.23",
     "babel-core": "^5.8.25",
